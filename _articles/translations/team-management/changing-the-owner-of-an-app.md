@@ -1,12 +1,15 @@
-It can happen that you need to transfer an application on [Bitrise](https://www.bitrise.io) to another user. This can be done in a few seconds by following these quick steps:
+[Bitrise](https://www.bitrise.io)上のアプリをほかのユーザに譲渡するには、以下の手順を行ってください。この手順は数分で完了できます。
 
-1. Login with the **current owner** of the app
-2. Open the app's page and go to the **Team** tab
-3. Make sure the new owner of the app is in the team or add her/him if you need to
-4. Click the `Transfer ownership` button on the top right
+1. アプリの**現在のオーナー**としてログインする
+2. アプリのページ内の**Team**タブを開く
+3. オーナー権限を譲渡したいユーザがチームメンバーに含まれているかを確認し，いない場合は招待する
+4. 画面右上にある`Transfer ownership`ボタンをクリックする
 
-For transferring the ownership, select the new user to transfer the app to:
+対象のユーザを選択を選択すると、オーナー権限が譲渡されます。
 
 ![Screenshot](/img/team-management/transfering-ownership.png)
 
+
 You can use the toggle to stay the connected service user. This is important if you are the admin of the given repository on `GitHub`, or `Bitbucket` and the app needs your credentials to work on Bitrise.
+この切替を行うことで、接続されたサービスのユーザを
+`GitHub`や`Bitbucket`、およびBitriseと連携するその他のアプリに対してあなたの認証情報が必要な場合には注意してください。
